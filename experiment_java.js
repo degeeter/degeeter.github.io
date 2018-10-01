@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 var $form = $('form#Test-form'),
     url = 'https://script.google.com/macros/s/AKfycbwaKbnIzLxV-T4Jv_QDgAfpKilsXvvD4PCamXXUg5egMcZjR7PQ/exec'
 
@@ -12,4 +14,6 @@ $('#submit-form').on('click', function(e) {
     //do something
       console.log("yay")
   );
-})
+});
+    
+});
