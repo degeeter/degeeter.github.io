@@ -10,8 +10,9 @@ $('#submit-form').on('click', function(e) {
     url: url,
     method: "GET",
     dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    console.log("yay")
-  );
-})
+    data: $form.serializeObject(),
+    success: function(){
+      console.log("yay");
+    }
+  )};
+});
